@@ -13,17 +13,22 @@ The CMS lives at [liam-murray.netlify.com/admin](https://liam-murray.netlify.com
 
 ## Yellowcake
 
-Created with Yellocake started for Gatsby. To deploy a new progject with the starter:
+Created with Yellocake started for Gatsby. To deploy a new project with the starter:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
 
-Once created:
+This clones the starter project to GitHub, deploys the starter then does the following
 
 - Enable **Identity**
 - Change **Registration Preferences** to **Invite Only**
 - Enable **Git Gateway**
 - Invite users (probably yourself) to enable admin access
   - Open the **Identity** tab and hit **Invite Users**
+
+Follow up:
+
+- Create CNAME route15 entry pointing to neflify
+- Enable HTTPS using letsencrypt certificate
 
 ## Developing
 
