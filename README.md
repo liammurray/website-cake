@@ -1,52 +1,36 @@
-# Yellowcake
+# Website
 
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![dependencies](https://david-dm.org/jinksi/netlify-cms-react-starter.svg?style=flat-square)](https://david-dm.org/jinksi/gatsbro)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9d5d5226-d3e1-4936-939f-2b041adcfef0/deploy-status)](https://app.netlify.com/sites/liam-murray/deploys)
 
-An opinionated starter project for creating lightning-fast websites with [Gatsby](https://gatsbyjs.org) v2 and [Netlify CMS](https://netlifycms.org) v2.
+Static website using Gatsby and Netlify CMS.
 
 - **[Gatsby](https://gatsbyjs.org)** static site generator
 - **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
 
-## See also
+## CMS
 
-[Netlify CMS Docs](https://www.netlifycms.org/docs/)  
-[Netlify CMS Repo](https://github.com/netlify/netlify-cms)
+The CMS lives at [liam-murray.netlify.com/admin](https://liam-murray.netlify.com/admin).
 
-## Get going
+## Yellowcake
+
+Created with Yellocake started for Gatsby. To deploy a new progject with the starter:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
 
-1.  Hit the **Deploy to Netlify** button. This will:
-
-- Clone the repo into your Github account
-- Create you a new project on Netlify, build & deploy
-
-1.  Once your Netlify project has been created, check a couple of settings:
+Once created:
 
 - Enable **Identity**
 - Change **Registration Preferences** to **Invite Only**
 - Enable **Git Gateway**
-
-1.  Invite users (probably yourself) to enable admin access
-
-- Open the **Identity** tab and hit **Invite Users**
-
-## Show me the CMS!
-
-The CMS lives at [\_\_YOUR_SITE_NAME\_\_.netlify.com/admin](https://__YOUR_SITE_NAME__.netlify.com/admin).
+- Invite users (probably yourself) to enable admin access
+  - Open the **Identity** tab and hit **Invite Users**
 
 ## Developing
 
-1.  Clone your repo to your local machine
-
-1.  Install dependencies
-
-`yarn` or `npm install`
-
-1.  Run the development server
-
-`yarn start` or `npm run start`
+```bash
+npm i
+npm run start
+```
 
 If you are adding or editing content locally in the CMS, a couple of things to note:
 
