@@ -1,7 +1,7 @@
 ---
 template: BlogIndex
-title: Updates
-subtitle: ''
-featuredImage: 'https://ucarecdn.com/83a3c73d-f234-4086-9fad-cee3a9626230/'
+title: Luthiery Jigs
+subtitle: Jigs for guitar building
+featuredImage: 'https://ucarecdn.com/e42e4b36-d7a7-4153-be98-1e25520edabe/'
 ---
 
