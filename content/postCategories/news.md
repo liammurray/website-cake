@@ -1,8 +1,7 @@
 ---
 template: BlogIndex
-title: News
-subtitle: ''
-featuredImage: >-
-  https://ucarecdn.com/db0b1431-8739-426f-970d-8a80eacf02ef/-/preview/-/rotate/270/
+title: Shop Projects
+subtitle: Projects for my woodworking shop
+featuredImage: 'https://ucarecdn.com/37fac4bd-ee15-4bb2-b600-a0e9ae1b9317/'
 ---
 
