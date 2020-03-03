@@ -1,7 +1,7 @@
 import React from 'react'
 import CMS from 'netlify-cms-app'
 import './cms-utils'
-
+import uploadcare from 'netlify-cms-media-library-uploadcare'
 import { HomePageTemplate } from '../templates/HomePage'
 import { ComponentsPageTemplate } from '../templates/ComponentsPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
@@ -9,16 +9,18 @@ import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
 
-if (
-  window.location.hostname === 'localhost' &&
-  window.localStorage.getItem('netlifySiteURL')
-) {
-  CMS.registerPreviewStyle(
-    window.localStorage.getItem('netlifySiteURL') + '/styles.css'
-  )
-} else {
-  // CMS.registerPreviewStyle('/styles.css')
-}
+// if (
+//   window.location.hostname === 'localhost' &&
+//   window.localStorage.getItem('netlifySiteURL')
+// ) {
+//   CMS.registerPreviewStyle(
+//     window.localStorage.getItem('netlifySiteURL') + '/styles.css'
+//   )
+// } else {
+//   CMS.registerPreviewStyle('/styles.css')
+// }
+
+CMS.registerMediaLibrary(uploadcare)
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />
