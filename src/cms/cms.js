@@ -17,7 +17,7 @@ if (
     window.localStorage.getItem('netlifySiteURL') + '/styles.css'
   )
 } else {
-  CMS.registerPreviewStyle('/styles.css')
+  // CMS.registerPreviewStyle('/styles.css')
 }
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
