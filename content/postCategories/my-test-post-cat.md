@@ -1,7 +1,7 @@
 ---
 template: BlogIndex
-title: My Test post cat
-subtitle: My test post cat subtitle
-featuredImage: 'https://ucarecdn.com/5b6f0989-d9ed-4648-a788-6c40bcd13722/'
+title: Furniture Projects
+subtitle: Various projects
+featuredImage: 'https://ucarecdn.com/cfa0a06a-4a50-42ee-af91-17adf6804e4a/'
 ---
 
