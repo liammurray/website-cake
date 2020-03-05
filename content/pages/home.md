@@ -2,10 +2,17 @@
 template: HomePage
 slug: ''
 title: Liam Murray
-featuredImage: 'https://ucarecdn.com/a30e8ba9-8a34-40b8-b4e9-c884de0e2a24/'
+featuredImage: 'https://ucarecdn.com/42eab741-a2b9-4838-baa3-72432060b1a1/'
 subtitle: Welcome to my pig pen
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: Liam Murray's personal website
+  title: Liam C Murray
 ---
-This is my personal website.
+
+This is my personal website showing off my various interests.
+
+- Woodworking
+- Luthierey
+- Classical and flamenco guitar
+- Spanish language and travel
+- Software engineering
